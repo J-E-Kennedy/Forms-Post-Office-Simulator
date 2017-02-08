@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Jonstructures;
-using System.Drawing;
+﻿using System.Drawing;
 
 namespace JPostOffice
 {
@@ -16,7 +10,7 @@ namespace JPostOffice
         /// </summary>
         /// <param name="color">the color the customer is drawn as</param>
         /// <param name="packages">the packages they are holding</param>
-        public Customer(Color color, JStack<Package> packages) : base(packages)
+        public Customer(Color color, Stack<Package> packages) : base(packages)
         {
             Color = color;
         }

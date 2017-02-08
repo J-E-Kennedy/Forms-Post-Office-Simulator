@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Stack = Jonstructures.JStack<JPostOffice.Package>;
+using Stack = JPostOffice.Stack<JPostOffice.Package>;
 
 namespace JPostOffice
 {

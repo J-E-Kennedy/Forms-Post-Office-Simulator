@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Jonstructures;
-using Stack = Jonstructures.JStack<JPostOffice.Package>;
+using Stack = JPostOffice.Stack<JPostOffice.Package>;
+
 namespace JPostOffice
 {
     public class Employee : Person

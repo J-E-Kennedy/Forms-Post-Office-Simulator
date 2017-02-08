@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Drawing;
+﻿using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Queue = Jonstructures.JQueue<JPostOffice.Customer>;
 namespace JPostOffice
 {
     class PostOfficeVisualizer

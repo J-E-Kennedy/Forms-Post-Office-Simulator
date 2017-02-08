@@ -33,9 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Jonstructures">
-      <HintPath>..\..\Jonstructures\Jonstructures\bin\Release\Jonstructures.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -49,6 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CircularlyLinkedList.cs" />
+    <Compile Include="CircularNode.cs" />
     <Compile Include="Customer.cs" />
     <Compile Include="Employee.cs" />
     <Compile Include="PostOffice.cs" />
@@ -75,8 +74,10 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="Queue.cs" />
+    <Compile Include="SinglyLinkedNode.cs" />
+    <Compile Include="Stack.cs" />
     <Compile Include="Truck.cs" />
-    <Compile Include="Vector2.cs" />
     <EmbeddedResource Include="PostOfficeHelpForm.resx">
       <DependentUpon>PostOfficeHelpForm.cs</DependentUpon>
     </EmbeddedResource>

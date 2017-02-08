@@ -1,11 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Stack = Jonstructures.JStack<JPostOffice.Package>;
-using Queue = Jonstructures.JQueue<JPostOffice.Customer>;
 using System.Drawing;
+using System.Linq;
+using Queue = JPostOffice.Queue<JPostOffice.Customer>;
+using Stack = JPostOffice.Stack<JPostOffice.Package>;
 
 namespace JPostOffice
 {
